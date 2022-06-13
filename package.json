@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "asciify": "^1.3.5",
+    "country-flag-emoji": "^1.0.3",
     "node-iplocate": "^1.0.3"
   }
 }
