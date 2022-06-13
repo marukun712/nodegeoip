@@ -25,7 +25,7 @@ readInterface.question("ipアドレスを入力してください >", (inputStri
     console.log(
       "Country: " + results.country + " (" + results.country_code + ")"
     );
-    console.log("Country Emoji: " + emoji.emoji + " (" + emoji.unicode + ")");
+    console.log("Country Emoji: " + emoji?.emoji + " (" + emoji?.unicode + ")");
     console.log("Continent: " + results.continent);
     console.log("Organisation: " + results.org + " (" + results.asn + ")");
     console.log(JSON.stringify(results, null, 2));
